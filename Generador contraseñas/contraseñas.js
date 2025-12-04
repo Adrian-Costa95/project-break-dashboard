@@ -13,17 +13,23 @@ boton.addEventListener("click", () => {
     valor = Number(valor)
     let mensaje = longitudusuario(valor)
     let contraseñafinal = generarContraseña(valor)
-    if(valor < 12){
+    if(valor === 1){
+        contraseña.textContent = mensaje
+    }else if(valor < 12){
         contraseña.textContent = mensaje
     }else if(valor > 50){
         contraseña.textContent = mensaje
     }else {
-        contraseña.textContent = contraseñafinal
+        contraseña.innerHTML=`
+        <h1>Contraseña generada: </h1>
+        <p> ${contraseñafinal} </p>`
     }
 });
 
 function longitudusuario(numero){
-    if (numero < 12){
+    if (numero === 0){
+        return `Por favor, inserte un numero de caracteres para continuar.`
+    }else if (numero < 12){
         return `Has introducido un valor de ${numero} cifras. Por favor, ingrese minimo 12 y maximo 50 `
     }else if(numero >= 50){
         return `Has introducido un valor de ${numero} cifras. Por favor, no supere las 50 cifras.`
@@ -31,6 +37,7 @@ function longitudusuario(numero){
         return `numero valido`
     }
 }
+
 function generarContraseña(longitudusuario) {
     let contraseñanueva = "";
     const caracteresultilizados = mayusculas + minusculas + numerico + simbolos;

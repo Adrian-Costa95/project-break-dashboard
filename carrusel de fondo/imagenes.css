@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+#fondo{
+    position: fixed;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 5s ease;
+
+}

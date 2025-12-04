@@ -14,17 +14,18 @@ const MINUS = "abcdefghijklmnopqrstuvwxyz";
 const NUM = "0123456789";
 const SIMB = "!@#$%^&*()-_=+";
 
----Leer la longitud que ha puesto el usuario
+---Leer la longitud que ha puesto el usuario OK
 
 Método:
 
 document.getElementById()
 input.value
 
----Asegurar que hay mínimo 1 de cada tipo
+---Asegurar que hay mínimo 1 de cada tipo OK
+
 Crear primero 1 mayúscula, 1 minúscula, 1 número, 1 símbolo.
 
----Rellenar el resto de caracteres al azar
+---Rellenar el resto de caracteres al azar OK
 
 Métodos:
 
@@ -32,7 +33,7 @@ Math random()
 Math.floor()
 Bucle for
 
----Mezclar o simplemente mostrar el resultado
+---Mezclar o simplemente mostrar el resultado OK
 
 Método:
 

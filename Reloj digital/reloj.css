@@ -41,6 +41,8 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
+/* Css */
+
 body{
     display: flex;
     justify-content: center;
@@ -56,8 +58,7 @@ main{
     gap: 10px;
     font-size: 30px;
     background-color:rgba(75, 71, 71, 0.519);
-    padding: 10px;
-    width: 500px;
+    width: 100vh;
     height: 250px;
     border-radius: 20px;
 }
