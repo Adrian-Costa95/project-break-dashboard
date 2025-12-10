@@ -1,4 +1,36 @@
-.botonInicio {
-    width: 10px;
-    height: 10px;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerprincipal{
+    background-color: red;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cuadrometeorologico{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.complementario{
+    display: flex;
+    flex-direction: column;
+}
+.previsionhoras{
+    display: flex;
+
+}
+#icono{
+    width: 150px;
 }

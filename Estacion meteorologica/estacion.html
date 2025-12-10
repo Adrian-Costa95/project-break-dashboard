@@ -5,20 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estacion meteorolocica</title>
     <link rel="stylesheet" href="/project-break-dashboard/carrusel de fondo/imagenes.css">
-    <link rel="stylesheet" href="/generales.css">
+    <link rel="stylesheet" href="/project-break-dashboard/generales.css">
     <link rel="stylesheet" href="/project-break-dashboard/Estacion meteorologica/estacion.css">
 </head>
 <header>
     <nav>
         <ul>
-            <a href="/Inicio.html" class="botonInicio">
+            <a href="/project-break-dashboard/Inicio.html" class="botonInicio">
             <img src="/project-break-dashboard/imagen texto/icono casita.png">
             </a>
         </ul>
     </nav>
 </header>
 <body>
-    <div id="fondo"></div>
+    <main class="containerprincipal">
+        <div id="fondo"></div>
+        <div class="principal">
+            <h2 id="ciudad">Ciudad,pais</h2>
+            <span id="clima">clima</span>
+        </div>
+            <div class="container">
+                <div class="cuadrometeorologico">
+                    <img id="icono" src="" alt="">
+                    <span id="grados">grados</span>
+                </div>
+                <div class="complementario">
+                    <p id="precipitacion"></p>
+                    <p id="viento"></p>
+                    <p id="humedad"></p>
+                </div>
+            </div>
+            <div class="previsionhoras">
+
+            </div>
+    </main>
+    
     <script src="estacion.js"></script>
     <script src="/project-break-dashboard/carrusel de fondo/imagenes.js"></script>
 </body>

@@ -1,13 +1,11 @@
-.menus{
-    display: flex;
-    justify-content: space-between;
-}
+
 nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(82, 82, 82, 0.511);
-    width: auto;
+    background-color: rgba(81, 81, 81, 0.379);
+    padding: 4px;
+    width: 90vw;
     height: 100px;
     font-size: 40px;
     list-style: none;
@@ -15,11 +13,4 @@ nav ul{
 li a{
     text-decoration: none;
     color: white;
-}
-.botonInicio img{
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 15px;
-    right: 20px;
 }
