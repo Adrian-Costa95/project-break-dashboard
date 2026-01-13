@@ -5,10 +5,11 @@ body{
     flex-direction: column;
 }
 .containerprincipal{
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.616);
     width: auto;
     height: auto;
     display: flex;
+    
     justify-content: center;
     flex-direction: column;
 
